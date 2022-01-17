@@ -1,0 +1,11 @@
+###
+GET localhost:8080/ping
+
+###
+POST localhost:8080/post
+Content-Type: application/json
+
+{
+  "id": 999,
+  "value": "content"
+}
